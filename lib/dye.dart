@@ -1,0 +1,25 @@
+library dye;
+
+import 'package:ansicolor/ansicolor.dart';
+
+black(text) => (new AnsiPen()..black())(text);
+blue(text) => (new AnsiPen()..blue())(text);
+cyan(text) => (new AnsiPen()..cyan())(text);
+green(text) => (new AnsiPen()..green())(text);
+magenta(text) => (new AnsiPen()..magenta())(text);
+red(text) => (new AnsiPen()..red())(text);
+white(text) => (new AnsiPen()..white())(text);
+yellow(text) => (new AnsiPen()..yellow())(text);
+
+gray(text) => (new AnsiPen()..rgb(r: 0.5, g: 0.5, b: 0.5))(text);
+
+
+// Abbreviated colors for usage
+// blk(text) => black(text);
+// bl(text) => blue(text);
+// cy(text) => cyan(text);
+// grn(text) => green(text);
+// mgt(text) => magenta(text);
+// rd(text) => red(text);
+// wht(text) => white(text);
+// yel(text) => yellow(text);

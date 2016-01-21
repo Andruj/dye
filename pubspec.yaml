@@ -1,0 +1,9 @@
+name: dye
+version: 0.0.1
+author: Andrew Peterson <andrewwaynepeterson@gmail.com>
+description: A simple dart library for easy color printing to terminal.
+homepage: http://github.com/andruj/dye
+environment:
+  sdk: ">=1.8.0"
+dependencies:
+  ansicolor: ^0.0.9
