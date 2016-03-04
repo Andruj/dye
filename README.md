@@ -9,6 +9,17 @@ main() {
   print('${blue('Hello')} ${red('World')}');
 }
 ```
+Or, for a mode node feel -
+
+```dart
+import 'pacakge:dye/dye.dart' as dye;
+
+main() {
+  print(dye.blue('Hello World'));
+  print('${dye.blue('Hello')} ${dye.red('World')}');
+}
+
+```
 
 ### Supports
 
